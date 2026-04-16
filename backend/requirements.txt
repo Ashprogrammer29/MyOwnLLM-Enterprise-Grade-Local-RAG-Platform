@@ -1,0 +1,29 @@
+# --- Web Framework ---
+fastapi==0.110.0
+uvicorn==0.28.0
+python-multipart==0.0.9
+
+# --- Database & Identity ---
+# SQLAlchemy 2.0 is the modern standard
+sqlalchemy==2.0.28
+psycopg2-binary==2.9.9
+# For JWT Passports and Hashing
+passlib[bcrypt]==1.7.4
+bcrypt==4.0.1
+python-jose[cryptography]==3.3.0
+
+# --- Vector & RAG ---
+# The Librarian's Client
+qdrant-client==1.8.0
+# The Local Inference Bridge
+ollama==0.1.7
+# Logic for chunking and splitting
+langchain==0.1.12
+langchain-community==0.0.28
+langchain-text-splitters==0.0.1
+
+# --- Utilities ---
+# Validation & Environment
+pydantic[email]==2.6.4
+python-dotenv==1.0.1
+pypdf
